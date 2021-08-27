@@ -14,7 +14,7 @@
 
 
 <body>
-<form class="form-inline" action="">
+<form class="form-inline" action="stock_search.php">
   <label for="stock name">Stock name:</label>
   <input type="text" class="form-control" placeholder="Enter stock symbol or name" id="stock_name">
   <label for="Region">Stock Region:</label>
@@ -25,7 +25,7 @@
         <label id='lbl_5' for="sel1">Position (select one):</label>
         <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-map-marker"data-toggle="tooltip" title="Select the stock Region" ></i></span>
-        <select class="form-control" id="sel1" name='region_type'> 
+        <select class="form-control" id="sel1" name='region_type'>
           <option value='US'>US</option>
           <option value ='BR'>BR</option>
           <option value='AU'>AU</option>
