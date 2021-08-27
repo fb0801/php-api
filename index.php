@@ -25,11 +25,22 @@
         <label id='lbl_5' for="sel1">Position (select one):</label>
         <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-map-marker"data-toggle="tooltip" title="Select the stock Region" ></i></span>
-        <select class="form-control" id="sel1" name='acc_type'>
-          <option value='content creator'>Content creator</option>
-          <option value ='admin'>Admin</option>
-          <option value='Moderator'>Moderator</option>
-          <option  value='Broker'>Broker</option>
+        <select class="form-control" id="sel1" name='region_type'> 
+          <option value='US'>US</option>
+          <option value ='BR'>BR</option>
+          <option value='AU'>AU</option>
+          <option  value='CA'>CA</option>
+          <option  value='FR'>FR</option>
+          <option  value='DE'>DE</option>
+          <option  value='HK'>HK</option>
+          <option  value='IN'>IN</option>
+          <option  value='IT'>IT</option>
+          <option  value='ES'>ES</option>
+          <option  value='GB'>GB</option>
+          <option  value='SG'>SG</option>
+
+
+
 
         </select>
         <br>
